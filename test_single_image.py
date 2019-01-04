@@ -56,7 +56,7 @@ def predict_image(image_path):
 
 if __name__ == "__main__":
 
-    imagefile = "nonpara.png"
+    imagefile = "images/nonpara.png"
 
     imagepath = os.path.join(os.getcwd(), imagefile)
    
