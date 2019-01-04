@@ -21,6 +21,7 @@ You can download Pytorch from this link https://pytorch.org/ <br>
 <br>
 python malaria_detection_train.py 
 <br>
+
 ## Trained Model
 <br>
 https://drive.google.com/open?id=10S33Qfz3U8uFdnGL6UBXZqBDWeyKZDbq
