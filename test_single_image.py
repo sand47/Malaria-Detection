@@ -14,8 +14,6 @@ def load_checkpoint(checkpoint_path):
     model.fc = nn.Linear(num_ftrs, 2)
  
     model.load_state_dict(torch.load(checkpoint_path, map_location='cpu'), strict=False)
-    #for param in model.parameters():
-      #  param.requires_grad = False
     model.eval()
     return model
 # Load your model to this variable
@@ -60,10 +58,8 @@ if __name__ == "__main__":
 
     imagepath = os.path.join(os.getcwd(), imagefile)
    
-
-       # run prediction function annd obtain prediccted class index
+    # run prediction function annd obtain prediccted class index
     index = predict_image(imagepath)
-
     if(index==0):
         print("Postive malaria")
     elif(index==1):
