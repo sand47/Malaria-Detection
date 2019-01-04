@@ -29,7 +29,7 @@ https://drive.google.com/open?id=10S33Qfz3U8uFdnGL6UBXZqBDWeyKZDbq
 
 ## Testing 
 
-Change the image name in the code and run the following to test single preciditon
+Change the image name in the code and run the following to test single prediction
 <br>
 python test_single_image.py
 <br>
