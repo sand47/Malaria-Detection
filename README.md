@@ -1,9 +1,15 @@
 # Malaria-Detection-
 Deep learning approach to solve malaria detection using transfer learning in Pytorch
 
+## Motivation 
+<br>
+I was diagnosed with Malaria couple of years ago and by god grace I was cured.  So decided to build this deep learning model using pytorch which can identify if your diagnosed with malaria or not in no time. Malaria is a life-threatening disease caused by parasites that are transmitted to people through the bites of infected female.There were an estimated 219 million cases of malaria in 90 countries and deaths rate reached 435000 in 2017. Thus automating this finding will save lot of time to doctors that will help decrease the death rate. So I started building the model using few layers of CNN but it did not work out well so I tried transfer learning using several architecture and found resnet50 is best among them. It gave me a 94% accuracy on the validation set.
+<br>
+
 ## Dataset
 You can download the dataset from this link <br>
 <br>
+https://drive.google.com/drive/folders/1JrwKK-X9Tg1k1LNuOZVNbUKrWxIoEfwH?usp=sharing
 <br>
 
 ## Dependencies
@@ -12,15 +18,20 @@ Pytorch (Version 1.0) <br>
 You can download Pytorch from this link https://pytorch.org/ <br>
 
 ## Training
-
+<br>
 python malaria_detection_train.py 
+<br>
+## Trained Model
+<br>
+https://drive.google.com/open?id=10S33Qfz3U8uFdnGL6UBXZqBDWeyKZDbq
+<br>
 
-You will get a saved model which we can use for prediction 
+## Testing 
 
-## Testing
-
-python malaria_testing.py --img images/test1.jpg
-
+Change the image name in the code and run the following to test single preciditon
+<br>
+python test_single_image.py
+<br>
 
 ## About the Model 
 
