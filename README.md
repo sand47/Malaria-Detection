@@ -34,7 +34,5 @@ Change the image name in the code and run the following to test single predictio
 python test_single_image.py
 <br>
 
-## About the Model 
 
-I have used resnet50 transfer learning architecture. I got an accurary of 97% on the validation set.
 
