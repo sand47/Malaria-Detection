@@ -10,7 +10,7 @@ I was diagnosed with Malaria couple of years ago and by god grace I was cured.  
 ## Dataset
 You can download the dataset from this link <br>
 <br>
-https://drive.google.com/drive/folders/1JrwKK-X9Tg1k1LNuOZVNbUKrWxIoEfwH?usp=sharing
+https://ceb.nlm.nih.gov/repositories/malaria-datasets/
 <br>
 
 ## Dependencies
