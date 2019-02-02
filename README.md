@@ -1,5 +1,6 @@
 # Malaria-Detection-
 Deep learning approach to solve malaria detection using transfer learning in Pytorch
+This project was a part of Udacity Pytorch challenge by Facebook 
 
 ## Motivation 
 <br>
